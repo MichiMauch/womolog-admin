@@ -29,5 +29,4 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
     res.status(500).json({ error: 'Error fetching weather data' });
   }
 };
-
 export default handler;
