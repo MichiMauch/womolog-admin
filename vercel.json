@@ -1,9 +1,15 @@
 {
+    "version": 2,
+    "builds": [
+      {
+        "src": "pages/api/upload.tsx",
+        "use": "@vercel/node"
+      }
+    ],
     "functions": {
-      "api/upload.ts": {
+      "api/upload.tsx": {
         "maxDuration": 10,
-        "memory": 1024,
-        "maxLambdaSize": "50mb"
+        "memory": 1024
       }
     }
   }
