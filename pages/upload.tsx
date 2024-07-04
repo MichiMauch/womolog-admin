@@ -354,7 +354,7 @@ const UploadPage = () => {
           </ul>
         </div>
       )}
-
+      
       {attractions.length > 0 && (
         <div>
           <h2>Attraktionen</h2>
