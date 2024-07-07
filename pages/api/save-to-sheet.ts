@@ -26,8 +26,8 @@ const getClient = () => {
 
 const saveToSheet = async (authClient: any, data: any) => {
   const sheets = google.sheets({ version: 'v4', auth: authClient });
-  const spreadsheetId = '1UlG-etv8S6QhUd4w_1-TmIQdp4jF8Z-x3giPfb84k5M'; // Ersetzen Sie dies durch Ihre Spreadsheet-ID
-  const range = 'test!A2'; // Ersetzen Sie dies durch Ihren Sheet-Namen und Bereich
+  const spreadsheetId = '1vUVnkv003UTBzUBuju3lnAej6lcL94WXsQWffXyXsDo'; // Ersetzen Sie dies durch Ihre Spreadsheet-ID
+  const range = 'Sheet1!A2'; // Ersetzen Sie dies durch Ihren Sheet-Namen und Bereich
 
   const values = data.map((item: any) => [
     item.name,
